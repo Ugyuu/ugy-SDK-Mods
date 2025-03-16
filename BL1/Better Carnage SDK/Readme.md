@@ -3,11 +3,12 @@ A small SDK mod that makes Carnage shotguns actually usable. Also buffs the Boom
 
 ## Features
 - Carnage shotguns fire x3 projectiles now instead of 1;
-- Increased projectile speed of all (Carnage) rockets (from 2500 -> 6000) (Jackal from 2000 -> 7500);
+*(Damage bonus is nerfed, but overall damage is greatly increased)*
+- Increased projectile speed of all (Carnage) rockets:
+*(from 2500 -> 6000 Speed) (Jackal from 2000 -> 7500 Speed);*
 - Decreased accuracy (for balancing);
-- Damage bonus lowered, but with 3 projectiles per shot, overall damage greatly increased;
 - Jackal damage increased more;
-- BoomStick fire rate decreased slightly;
+- BoomStick fire rate decreased slightly (for balancing);
 
 # Instructions
 - Extract the folder in `BetterCarnage.zip` into your `Borderlands/sdk_mods` folder;
