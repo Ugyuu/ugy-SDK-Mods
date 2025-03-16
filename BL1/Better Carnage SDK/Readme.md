@@ -11,6 +11,7 @@ A small SDK mod that makes Carnage shotguns actually usable. Also buffs the Boom
 
 # Instructions
 - Extract the BetterCarnage.zip into your Borderlands/sdk_mods folder;
+ (The default is `C:\Program Files (x86)\Steam\steamapps\common\Borderlands\sdk_mods`)
 - Open Borderlands;
 - Open the console and type 'mods' (without quotation marks);
 - Enable the mod;
