@@ -109,23 +109,16 @@ def patch():
 # Important loading stuff, activate when inventory is here
 # If this does not work, save quitting and reloading once does work
 
-@hook("Engine.WorldInfo:CommitMapChange")  # probably don't need a post hook
-
-
-#def on_enable() -> None:
-#  try:
-#    patch()
-#  except ValueError:
-#    pass
-
-def on_commit_map_change(_1, _2, _3, _4) -> None:  # _ is convention for don't care, but we need multiple
-    patch() # or whatever other code
-
+@hook("Engine.WorldInfo:CommitMapChange")
+def on_commit_map_change(_1, _2, _3, _4) -> None:
+    patch()
     on_commit_map_change.disable()
 
-build_mod() # picks up hooks from the global scope automatically
-
-
+def _on_enable() -> None:
+  try:
+    patch()
+  except ValueError:
+    pass
 
 
 # Gets populated from `build_mod` below
@@ -140,6 +133,7 @@ build_mod(
     keybinds=[],
     hooks=[on_commit_map_change],
     commands=[],
+    on_enable=_on_enable, # tell the mod factory to use my 'on_enable' function
     # Defaults to f"{SETTINGS_DIR}/dir_name.json" i.e., ./Settings/bl1_commander.json
     settings_file=Path(f"{SETTINGS_DIR}/BetterCarnageSDK.json"),
 )
