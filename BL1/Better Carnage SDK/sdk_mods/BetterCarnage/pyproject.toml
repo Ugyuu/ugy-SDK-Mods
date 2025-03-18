@@ -44,7 +44,7 @@
 
 [project]
 name = "Better Carnage SDK"
-version = "0.8.0"
+version = "0.8.1"
 authors = [{ name = "ugyuu" }]
 description = "Makes the BoomStick, Jackal and Carnage Barrel shotguns much stronger"
 
