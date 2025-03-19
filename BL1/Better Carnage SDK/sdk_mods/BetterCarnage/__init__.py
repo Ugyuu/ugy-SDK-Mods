@@ -30,7 +30,6 @@ def obj(class_name: str, obj_name: str) -> UObject:
     obj.ObjectFlags |= 0x4000
     return obj
 
-# gd_weap_combat_shotgun.Barrel.Barrel_PartList
 
 def patch():
 
@@ -89,11 +88,6 @@ def patch():
     JackalBarrel.WeaponAttributeEffects[2].AttributeToModify = WeaponProjectiles
     JackalBarrel.WeaponAttributeEffects[2].ModifierType = EModifierType.MT_PostAdd
     JackalBarrel.WeaponAttributeEffects[2].BaseModifierValue.BaseValueConstant = 3.000000
-
-    # Add acc4_Carnage to the shotgun accesory pool (broken)
-    #obj("WeaponPartDefinition","gd_weap_combat_shotgun.Acc.Acc_PartList").ObjectFlags |= 0x4000
-    #obj("WeaponPartListDefinition","gd_weap_combat_shotgun.Acc.Acc_PartList").WeightedParts.append(current_obj.WeightedParts[10])
-    #obj("WeaponPartListDefinition","gd_weap_combat_shotgun.Acc.Acc_PartList").WeightedParts[-1].Part = #obj("WeaponPartDefinition","gd_weap_combat_shotgun.acc.acc4_Carnage")
 
     # Removes weird collision jank for the rockets
     obj("ProjectileDefinition","gd_weap_combat_shotgun.Rockets.rocket_mini").bUseAccurateCollision = False
