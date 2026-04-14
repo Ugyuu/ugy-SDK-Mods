@@ -4,14 +4,15 @@ version = "1.4.0"
 authors = [{ name = "ugyuu, SleepMaster, BioHazardAlbatross" }]
 description = """\
 Fixes the Jakobs vendor in the Zombie Ned DLC!
-- No longer breaks on completion
-- ONLY sells Jakobs guns/COMS
-- More items for sale (15!)
-- Higher quality items
+- No longer breaks after completing the mission
+- ONLY sells Jakobs guns and class mods
+- More items for sale (15 + Item of the Day!)
+- Higher quality items (AwesomeLevel)
 - Scales to your level (mostly)
+- Jakobs ClapTrap talks more often (oops)
 Credits:
-SleepMaster: Lovely new vendor UI
-BioHazardAlbatross: Porting to SDK
+SleepMaster: Creating a lovely new custom Jakobs vendor UI
+BioHazardAlbatross: Porting the mod to SDK
 """
 [tool.sdkmod]
 name = "Jakobs Vendor Fix"
