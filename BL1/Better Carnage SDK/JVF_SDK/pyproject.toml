@@ -1,0 +1,23 @@
+[project]
+name = "Jakobs Vendor Fix"
+version = "1.4.0"
+authors = [{ name = "ugyuu, SleepMaster, BioHazardAlbatross" }]
+description = """\
+Fixes the Jakobs vendor in the Zombie Ned DLC!
+- No longer breaks on completion
+- ONLY sells Jakobs guns/COMS
+- More items for sale (15!)
+- Higher quality items
+- Scales to your level (mostly)
+Credits:
+SleepMaster: Lovely new vendor UI
+BioHazardAlbatross: Porting to SDK
+"""
+[tool.sdkmod]
+name = "Jakobs Vendor Fix"
+mod_type = "Standard"
+supported_games = ["BL1","BL1E"]
+coop_support = "RequiresAllPlayers"
+auto_enable = true
+download = "https://github.com/MOW531/MOW531-BL1-SDK-Mods/raw/refs/heads/main/Grenade%20Launchers%20SDK/Grenade%20Launchers%20SDK.zip"
+license = {name = "LGPL3", url = "https://choosealicense.com/licenses/lgpl-3.0/" }
