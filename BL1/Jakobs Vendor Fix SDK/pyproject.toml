@@ -19,5 +19,5 @@ mod_type = "Standard"
 supported_games = ["BL1","BL1E"]
 coop_support = "RequiresAllPlayers"
 auto_enable = true
-download = "https://github.com/MOW531/MOW531-BL1-SDK-Mods/raw/refs/heads/main/Grenade%20Launchers%20SDK/Grenade%20Launchers%20SDK.zip"
+download = "https://github.com/Ugyuu/ugy-SDK-Mods/raw/refs/heads/main/BL1/Jakobs%20Vendor%20Fix%20SDK/JVF_SDK.zip"
 license = {name = "LGPL3", url = "https://choosealicense.com/licenses/lgpl-3.0/" }
