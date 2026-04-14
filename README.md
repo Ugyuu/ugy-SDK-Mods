@@ -1,7 +1,6 @@
 # ugy-SDK-Mods
-SDK mods for Borderlands games
-
-Better Carnage: Improves "Carnage" type shotguns by making them shoot 3 projectiles and buffing extra parts (beta)
-Jakobs Vendor Fix: Makes the vendor always usable after repair, makes it only give Jakobs gear on your level, a new UI, etc.
+SDK mods for Borderlands games, by the guy that speedruns Borderlands 1
 
 [quality debatable]
+
+Please find installation instructions and sdk mods for the BL1 SDK here: https://bl-sdk.github.io/willow1-mod-db/
