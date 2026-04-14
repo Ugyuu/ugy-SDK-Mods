@@ -26,3 +26,5 @@ Fixes the Jakobs vendor in the Zombie Island of Dr. Ned DLC
 - More items for sale (15 + Item of the Day!)
 - Higher quality items
 - Scales the contents to your level (Might still break <50!)
+- A beautiful new UI thanks to SleepMaster!
+Thanks to BioHazardAlbatross for helping with porting it to the SDK!
