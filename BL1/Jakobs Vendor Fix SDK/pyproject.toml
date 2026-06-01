@@ -1,5 +1,5 @@
 [project]
-name = "Jakobs Vendor Fix"
+name = "Jakobs-Vendor-Fix"
 version = "1.4.0"
 authors = [{ name = "ugyuu, SleepMaster, BioHazardAlbatross" }]
 description = """\
@@ -15,7 +15,7 @@ SleepMaster: Creating a lovely new custom Jakobs vendor UI
 BioHazardAlbatross: Porting the mod to SDK
 """
 [tool.sdkmod]
-name = "Jakobs Vendor Fix"
+name = "Jakobs-Vendor-Fix"
 mod_type = "Standard"
 supported_games = ["BL1","BL1E"]
 coop_support = "RequiresAllPlayers"
